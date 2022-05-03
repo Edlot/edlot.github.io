@@ -21,6 +21,7 @@ html {
     width: 350px;
     background-color: #061539;
     padding: 1em;
+    margin:1px
 
 }
 
@@ -28,12 +29,14 @@ html {
     display: table;
     padding: 2px;
     height: calc(110vh - 5px) !important;
-    margin-left: 1px;
-    width: 100%;
+    margin-left: 23%;
+    width: 77%;
+    border-style:groove;
+    border-color: #061539;
 }
 
 body::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -102,7 +105,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .proyectos {
-    margin-left: 350px;
+    margin-left: 0px;
     padding: 1em;
     display: table;
 
