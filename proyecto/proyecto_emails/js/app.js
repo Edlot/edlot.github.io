@@ -109,12 +109,11 @@ function enviarEmail(e) {
 
           formularioEnviar.insertBefore(parrafo, spinner)
 
-          document.querySelector('#loaders').appendChild( enviado );
-
           setTimeout( () =>  {
 
                parrafo.remove();
                resetearFormulario();
+               inicioApp();
           }, 5000);
      }, 3000);
 
@@ -125,7 +124,7 @@ function enviarEmail(e) {
 // Resetear el formulario 
 function resetearFormulario() {
      formularioEnviar.reset();
-     inicioApp();
+
 }
 
 function mostrarError(mensaje){
