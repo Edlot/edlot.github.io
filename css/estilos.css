@@ -4,7 +4,9 @@
 
 html {
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #314678;
+    background: #80eaff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #007092, #000428);  
+    background: linear-gradient(to right, #004e92, #000428);
 }
 
 .contenedor {
@@ -19,7 +21,9 @@ html {
     bottom: 0;
     left: 0;
     width: 23%;
-    background-color: #061539;
+    background: #80eaff; 
+    background: -webkit-linear-gradient(to right, #007092, #000428);  
+    background: linear-gradient(to right, #004e92, #000428);
     padding: 1em;
     margin:1px
 
@@ -124,7 +128,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .proyecto__titulo {
-    color: #0e1934;
+    color: #ffffff;
     font-size: 20px;
 }
 
